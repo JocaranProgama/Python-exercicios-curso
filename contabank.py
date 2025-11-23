@@ -17,17 +17,15 @@ class BankAcount:
         print(f'Balance: {self._balance}')
     
     def deposit(self, valor):
-       self._balance = self._balance + valor
+       self._balance += valor
        return f'Balance: {self._balance}'
         
     def withdraw(self, valor):
-        rmbalance = self._balance - valor
-        if rmbalance < 0:
+        if self._balance < valor: 
             print('Invalid, not enough balance')
         else:
-            self._balance = rmbalance
-        return f'Balance: {self._balance}'
-    
+            self._balance -= valor
+            return f'Balance: {self._balance}'
 
 jose = BankAcount('Jose', 10000)
 jose.deposit(34000)
