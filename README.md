@@ -1,1 +1,1 @@
-Primeiros 3 exercícios publicados são simples
+Exercícios simples realizados por mim durante meus estudos no cusrso de python
