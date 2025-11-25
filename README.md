@@ -1,1 +1,1 @@
-Exercícios simples realizados por mim durante meus estudos no cusrso de python
+Exercícios realizados por mim durante meus estudos no cusrso de python

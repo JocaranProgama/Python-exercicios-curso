@@ -1,16 +1,16 @@
-def sum(a, b):
+def sum(a, b):#soma
     return a + b
 
-def multiply(a, b):
+def multiply(a, b):#multiplica
     return a * b
 
-def divide(a, b):
+def divide(a, b):#divide
     return a / b
 
-def subtract(a, b):
+def subtract(a, b):#subtrai
     return a - b
 
-def exponent(a, b):
+def exponent(a, b):#exponencia
     return a ** b
 
 
@@ -23,7 +23,7 @@ operations = {
 }
 
 while True:
-    chosen_operator = input("Choose an operation (+, -, *, /, **) or 'q' to quit: ")
+    chosen_operator = input("Choose an operation (+, -, *, /, **) or 'q' to quit: ")#mostra as opçoes
 
     if chosen_operator == 'q':
         print("Exiting calculator.")
